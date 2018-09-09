@@ -1,0 +1,136 @@
+object Form1: TForm1
+  Left = -25
+  Top = 479
+  Width = 368
+  Height = 233
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 88
+    Top = 16
+    Width = 172
+    Height = 24
+    Caption = 'M'#225'ximo e  M'#237'nimo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 56
+    Width = 124
+    Height = 16
+    Caption = 'Digite um N'#250'mero'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 8
+    Top = 88
+    Width = 124
+    Height = 16
+    Caption = 'Digite um N'#250'mero'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 120
+    Width = 124
+    Height = 16
+    Caption = 'Digite um N'#250'mero'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 264
+    Top = 72
+    Width = 51
+    Height = 13
+    Caption = 'M'#225'ximo :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblMax: TLabel
+    Left = 328
+    Top = 72
+    Width = 3
+    Height = 13
+  end
+  object Label7: TLabel
+    Left = 264
+    Top = 96
+    Width = 50
+    Height = 13
+    Caption = 'M'#237'nimo :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblMin: TLabel
+    Left = 320
+    Top = 96
+    Width = 3
+    Height = 13
+  end
+  object num1: TEdit
+    Left = 136
+    Top = 56
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object num2: TEdit
+    Left = 136
+    Top = 88
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object num3: TEdit
+    Left = 136
+    Top = 120
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object btnCalc: TButton
+    Left = 152
+    Top = 152
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 3
+    OnClick = btnCalcClick
+  end
+end
